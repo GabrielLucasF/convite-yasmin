@@ -12,7 +12,7 @@ buttonYes.addEventListener('click',()=>{
     content1.style.display = 'none';
     content2.style.display = 'block';
     title.textContent = 'Você escolheu bem!';
-    title.style.fontSize = '3rem';
+    title.style.fontSize = '1.2rem';
 });
 // Função para fazer o botão fugir do Mouse no eixo Y (|).
 function runButtonY(){  
@@ -28,5 +28,8 @@ function runButtonX(){
 // Declaração/Ativação das funções.
 buttonNo.addEventListener('mouseover', runButtonY);
 buttonNo.addEventListener('mouseout', runButtonX);
+
+buttonNo.addEventListener('click', runButtonY);
+buttonNo.addEventListener('click', runButtonX);
 
 

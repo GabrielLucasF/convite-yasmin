@@ -62,13 +62,14 @@ span{
 }
 
 .title1{
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     top:3%;
     width: 100%;
+    word-break: break-all;
 }
 
 .title1 h1{
@@ -80,6 +81,6 @@ span{
 }
 
 .content2 img{
-    height: 620px;
-    width: 520px;
+    height: 520px;
+    width: 330px;
 }
