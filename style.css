@@ -61,8 +61,28 @@ span{
     color:#FFF;
 }
 
+.ntext{
+    color: red;
+}
+
+.ptext{
+    font-size: 0.8rem;
+}
+
+.rodape {
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom:3%;
+    width: 100%;
+    word-break: break-word;
+    color:white;
+}
+
 .title1{
-    font-size: 1rem;
+    font-size: 0.6rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,6 +90,11 @@ span{
     top:3%;
     width: 100%;
     word-break: break-word;
+}
+
+.bbora{
+    font-size: 2rem;
+    color: #e44b8d;
 }
 
 .title1 h1{

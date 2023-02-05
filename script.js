@@ -10,7 +10,7 @@ const positions = ['-360', '388', '-299', '336', '-255', '220', '233', '266', '-
 buttonYes.addEventListener('click',()=>{
     content1.style.display = 'none';
     content2.style.display = 'block';
-    title.textContent = 'Você escolheu bem!';
+    title.textContent = 'Que bom que aceitou!😳';
     title.style.fontSize = '1.2rem';
 });
 
